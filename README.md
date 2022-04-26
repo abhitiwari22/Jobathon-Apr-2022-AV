@@ -16,4 +16,6 @@ Time series approach
 The main problem in this apporach was the stationarity of the time series. I tried to make the series stationary by applying transformations such as log returns, boxcox. But the results were not satisfactory. One more issue with using ARIMA to forecast was that we were supposed to forecast for around 13 months on an hourly basis. ARIMA failed to do it for such a long time period.
 
 # Fbprophet
-Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.I have forecasted the missing the data first and then I have joined the dataframe after that I have done EDA i.e .combine both the columns date and hour.
+
+
